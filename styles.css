@@ -1,0 +1,30 @@
+canvas {
+	width: 100%;
+	background-color: black;
+	background: linear-gradient(-45deg, #000000, #270512, #021e29, #272603);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+	position: absolute;
+	left: 0;
+	top: 0;
+	z-index: -1;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
+h1 {
+	position: absolute;
+	color: white;
+}
