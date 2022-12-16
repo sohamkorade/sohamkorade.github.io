@@ -46,7 +46,7 @@ for (let i = 50; i--;) {
 stars.push(new star({ vx: 0, vy: 0, radius: 0 }))
 
 function drawstars() {
-    ctx.fillStyle = "#fff"
+    ctx.fillStyle = "black"
     stars.forEach(star => {
         ctx.beginPath()
         ctx.arc(star.x, star.y, star.radius, 0, 2 * Math.PI)
@@ -62,7 +62,7 @@ function drawlines() {
             const attraction = 100 - distance
             // let distance = Math.pow(star1.x - star2.x, 2) + Math.pow(star1.y - star2.y, 2)
             if (distance < 100) {
-                ctx.strokeStyle = `rgba(255,255,255,${attraction}%)`
+                ctx.strokeStyle = `rgba(255,0,0,${attraction}%)`
                 ctx.beginPath()
                 ctx.moveTo(star1.x, star1.y)
                 ctx.lineTo(star2.x, star2.y)
