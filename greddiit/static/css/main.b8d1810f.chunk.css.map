@@ -1,1 +1,0 @@
-{"version":3,"sources":["/home/soham/acad/22/dass/as1/2021101131/frontend/src/index.css","main.b8d1810f.chunk.css"],"names":[],"mappings":"AAAA,KACE,sECCF","file":"main.b8d1810f.chunk.css","sourcesContent":["body {\n  background-image: url(assets/subtle-prism.svg);\n}","body {\n  background-image: url(/greddiit/static/media/subtle-prism.7390e68d.svg);\n}\n"]}
